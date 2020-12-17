@@ -1,5 +1,5 @@
 ## Installation
-Create virtualenv and activate:
+Create virtualenv and activate
 ```bash
 virtualenv venv_proxy --python=python3.8
 ```
