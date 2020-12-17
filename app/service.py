@@ -22,5 +22,4 @@ def modify_content(content):
     regex = r'(\s|^)([А-Яа-я]{6})([.!?,;:\\-]|\s|$)'
     article_content = re.sub(regex, r'\1\2™\3', article_content)
 
-    result = content[:start_article] + article_content + content[stop_article:]
-    return result
+    return content[:start_article] + article_content + content[stop_article:]
